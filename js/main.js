@@ -19,5 +19,14 @@ const zodiacArray = [
 //Lee: This function will return the zodiac sign that will be used to get the right zodiac info from our list of arrays
 
 function returnZodiac(birthMonth,birthDate){
-  
+  switch(birthMonth){
+   case "Jan":
+    birthDate <= 19 ? return "Capricorn" : return "Aquarius";
+    break;
+   //Lee: add a case for each other month of the year similar to the above
+   default:
+    alert("Please enter a valid month!");
+  }
 }
+
+//Lee: create some test cases to make sure that switch functions and that Zodiac Array returns the right values
