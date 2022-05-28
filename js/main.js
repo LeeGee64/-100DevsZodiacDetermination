@@ -76,71 +76,46 @@
 
 //Lee: This function will return the zodiac sign that will be used to get the right zodiac info from our list of arrays
 
-/*let birthDate = ""
+let birthDate = ""
 let birthMonth =  ""
-let result =""
-let image = ""
-let description = ""*/
+
  
 function getZodiacInfo (birthDate, birthMonth) {
 if((birthMonth == 12 &&  birthDate >= 22) || (birthMonth == 1 && birthDate <= 19)){
-    console.log("Capricon")
-    image = ""
-    description = ""
+    console.log("Capricon") 
 }else if((birthMonth == 1 && birthDate>=20)||(birthMonth == 2 && birthDate<=18)){
   console.log("Aquarius")
-    image = ""
-    description = ""
 }else if((birthMonth == 2 && birthDate>=19)|| (birthMonth== 3 && birthDate<= 20)){
  console.log("Pisces")
-    image = ""
-    description = ""
 }else if((birthMonth == 3 && birthDate>=21)|| (birthMonth== 4 && birthDate<= 19)){
  console.log("Aries")
-    image = ""
-    description = ""
 }else if((birthMonth == 4 && birthDate>=20)|| (birthMonth== 5 && birthDate<= 20)){
   console.log("Taurus")
-    image = ""
-    description = ""
 }else if((birthMonth == 5 && birthDate>=21)|| (birthMonth== 6 && birthDate<= 20)){
   console.log("Gemini")
-    image = ""
-    description = ""
 }else if((birthMonth == 6 && birthDate>=21)|| (birthMonth== 7 && birthDate<= 22)){
   console.log("Cancer")
-    image = ""
-    description = ""
 }else if((birthMonth == 7 && birthDate>=23)|| (birthMonth== 8 && birthDate<= 22)){
    console.log("Leo")
-    image = ""
-    description = ""
 }else if((birthMonth == 8 && birthDate>=23)|| (birthMonth== 9 && birthDate<= 22)){
   console.log("Virgo")
-    image = ""
-    description = ""
 }else if((birthMonth == 9 && birthDate>=23)|| (birthMonth== 10 && birthDate<= 22)){
   console.log("Libra")
-    image = ""
-    description = ""
 }else if((birthMonth == 10 && birthDate>=23)|| (birthMonth== 11 && birthDate<= 21)){
   console.log("Scorpio")
-        image = ""
-        description = ""
 }else if((birthMonth == 11 && birthDate>=22)|| (birthMonth== 12 && birthDate<= 21)){
         console.log("Saggaritus")
-        image = ""
-        description = ""
 }
 }
 
 
 //Lee: create some test cases to make sure that switch functions and that Zodiac Array returns the right values
-getZodiacInfo(1, 6)
-getZodiacInfo(6, 8)
-getZodiacInfo(4, 4)
-getZodiacInfo(12, 12)
-getZodiacInfo(1, 7)
-getZodiacInfo(3, 2)
-getZodiacInfo(28, 4)
-getZodiacInfo(31, 12)
+
+
+//Lee: This function will pull the month and date from the submitted birthday to yse with our return Zodiac function
+
+document.querySelector('#button').addEventListener('click', () => {
+				var myDate = document.getElementById('inForm').value.split('-');
+				var birthMonth = Number(myDate[1]);
+    var birthDate = Number(myDate[2]); 
+			});
