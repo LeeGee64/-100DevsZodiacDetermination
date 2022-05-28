@@ -1,6 +1,9 @@
-//Lee: This array of objects will contain the name, image path, and description of each zodiac to be returned after input
-
-const zodiacArray = [
+//Lee: This function will return the zodiac sign that will be used to get the right zodiac info from our list of arrays
+ 
+function getZodiacInfo (birthDate, birthMonth) {
+  
+  //Lee: This array of objects will contain the name, image path, and description of each zodiac to be returned after input
+  const zodiacArray = [
   "Capricorn":  {
       name : "Capricorn", 
       dateRange :"Dec 22 - Jan 19", 
@@ -74,13 +77,7 @@ const zodiacArray = [
   }   
 ];
 
-//Lee: This function will return the zodiac sign that will be used to get the right zodiac info from our list of arrays
-
-let birthDate = ""
-let birthMonth =  ""
-
- 
-function getZodiacInfo (birthDate, birthMonth) {
+  
 if((birthMonth == 12 &&  birthDate >= 22) || (birthMonth == 1 && birthDate <= 19)){
     return zodiacArray["Capricon"]; 
 }else if((birthMonth == 1 && birthDate>=20)||(birthMonth == 2 && birthDate<=18)){
