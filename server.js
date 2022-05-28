@@ -8,6 +8,9 @@ const url = require('url');
 // const hostname = '127.0.0.1'
 // const port = 3000
 
+//brings in getZodiacInfo function from main.js
+import (getZodiacInfo) from './main.js';
+
 const server = http.createServer((req, res) => {
   const page = url.parse(req.url).pathname;
   const params = querystring.parse(url.parse(req.url).query);
@@ -21,6 +24,7 @@ const server = http.createServer((req, res) => {
   }
   else if (page == '/api') {
     //Lee: Need to add return of zodiac object
+    //Lee: 
 //     if('student' in params){
 //       if(params['student']== 'leon'){
 //         res.writeHead(200, {'Content-Type': 'application/json'});
