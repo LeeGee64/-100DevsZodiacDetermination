@@ -3,8 +3,8 @@
 const http = require('http');
 const fs = require('fs')
 const url = require('url');
-const querystring = require('querystring');
-const figlet = require('figlet')
+//const querystring = require('querystring');
+//const figlet = require('figlet')
 // const hostname = '127.0.0.1'
 // const port = 3000
 
@@ -19,42 +19,20 @@ const server = http.createServer((req, res) => {
       res.end();
     });
   }
-  else if (page == '/otherpage') {
-    fs.readFile('otherpage.html', function(err, data) {
-      res.writeHead(200, {'Content-Type': 'text/html'});
-      res.write(data);
-      res.end();
-    });
-  }
-  else if (page == '/otherotherpage') {
-    fs.readFile('otherotherpage.html', function(err, data) {
-      res.writeHead(200, {'Content-Type': 'text/html'});
-      res.write(data);
-      res.end();
-    });
-  }
   else if (page == '/api') {
-    if('student' in params){
-      if(params['student']== 'leon'){
-        res.writeHead(200, {'Content-Type': 'application/json'});
-        const objToJson = {
-          name: "leon",
-          status: "Boss Man",
-          currentOccupation: "Baller"
-        }
-        res.end(JSON.stringify(objToJson));
-      }//student = leon
-      else if(params['student'] != 'leon'){
-        res.writeHead(200, {'Content-Type': 'application/json'});
-        const objToJson = {
-          name: "unknown",
-          status: "unknown",
-          currentOccupation: "unknown"
-        }
-        res.end(JSON.stringify(objToJson));
-      }//student != leon
-    }//student if
-  }//else if
+    //Lee: Need to add return of zodiac object
+//     if('student' in params){
+//       if(params['student']== 'leon'){
+//         res.writeHead(200, {'Content-Type': 'application/json'});
+//         const objToJson = {
+//           name: "leon",
+//           status: "Boss Man",
+//           currentOccupation: "Baller"
+//         }
+//         res.end(JSON.stringify(objToJson));
+//       }
+//     }
+  }
   else if (page == '/css/style.css'){
     fs.readFile('css/style.css', function(err, data) {
       res.write(data);
