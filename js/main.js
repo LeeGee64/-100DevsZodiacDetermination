@@ -1,6 +1,6 @@
 //Lee: This array of objects will contain the name, image path, and description of each zodiac to be returned after input
 
-/*const zodiacArray = {
+const zodiacArray = [
   "Capricorn":  {
       name : "Capricorn", 
       dateRange :"Dec 22 - Jan 19", 
@@ -72,7 +72,7 @@
   image: "#",
    description: ""
   }   
-}*/
+];
 
 //Lee: This function will return the zodiac sign that will be used to get the right zodiac info from our list of arrays
 
@@ -82,40 +82,28 @@ let birthMonth =  ""
  
 function getZodiacInfo (birthDate, birthMonth) {
 if((birthMonth == 12 &&  birthDate >= 22) || (birthMonth == 1 && birthDate <= 19)){
-    console.log("Capricon") 
+    return "Capricon"; 
 }else if((birthMonth == 1 && birthDate>=20)||(birthMonth == 2 && birthDate<=18)){
-  console.log("Aquarius")
+  return "Aquarius";
 }else if((birthMonth == 2 && birthDate>=19)|| (birthMonth== 3 && birthDate<= 20)){
- console.log("Pisces")
+  return "Pisces";
 }else if((birthMonth == 3 && birthDate>=21)|| (birthMonth== 4 && birthDate<= 19)){
- console.log("Aries")
+  return "Aries";
 }else if((birthMonth == 4 && birthDate>=20)|| (birthMonth== 5 && birthDate<= 20)){
-  console.log("Taurus")
+  return "Taurus";
 }else if((birthMonth == 5 && birthDate>=21)|| (birthMonth== 6 && birthDate<= 20)){
-  console.log("Gemini")
+  return "Gemini";
 }else if((birthMonth == 6 && birthDate>=21)|| (birthMonth== 7 && birthDate<= 22)){
-  console.log("Cancer")
+  return "Cancer";
 }else if((birthMonth == 7 && birthDate>=23)|| (birthMonth== 8 && birthDate<= 22)){
-   console.log("Leo")
+   return "Leo";
 }else if((birthMonth == 8 && birthDate>=23)|| (birthMonth== 9 && birthDate<= 22)){
-  console.log("Virgo")
+   return "Virgo";
 }else if((birthMonth == 9 && birthDate>=23)|| (birthMonth== 10 && birthDate<= 22)){
-  console.log("Libra")
+   return "Libra";
 }else if((birthMonth == 10 && birthDate>=23)|| (birthMonth== 11 && birthDate<= 21)){
-  console.log("Scorpio")
+   return "Scorpio";
 }else if((birthMonth == 11 && birthDate>=22)|| (birthMonth== 12 && birthDate<= 21)){
-        console.log("Saggaritus")
+   return "Saggaritus";}
 }
-}
 
-
-//Lee: create some test cases to make sure that switch functions and that Zodiac Array returns the right values
-
-
-//Lee: This function will pull the month and date from the submitted birthday to yse with our return Zodiac function
-
-document.querySelector('#button').addEventListener('click', () => {
-				var myDate = document.getElementById('inForm').value.split('-');
-				var birthMonth = Number(myDate[1]);
-    var birthDate = Number(myDate[2]); 
-			});
