@@ -30,3 +30,12 @@ function returnZodiac(birthMonth,birthDate){
 }
 
 //Lee: create some test cases to make sure that switch functions and that Zodiac Array returns the right values
+
+
+//Lee: This function will pull the month and date from the submitted birthday to yse with our return Zodiac function
+
+document.querySelector('#button').addEventListener('click', () => {
+				var myDate = document.getElementById('inForm').value.split('-');
+				var birthMonth = Number(myDate[1]);
+    var birthDate = Number(myDate[2]); 
+			});
