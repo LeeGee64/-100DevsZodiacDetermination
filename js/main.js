@@ -82,28 +82,28 @@ let birthMonth =  ""
  
 function getZodiacInfo (birthDate, birthMonth) {
 if((birthMonth == 12 &&  birthDate >= 22) || (birthMonth == 1 && birthDate <= 19)){
-    return "Capricon"; 
+    return zodiacArray["Capricon"]; 
 }else if((birthMonth == 1 && birthDate>=20)||(birthMonth == 2 && birthDate<=18)){
-  return "Aquarius";
+  return zodiacArray["Aquarius"];
 }else if((birthMonth == 2 && birthDate>=19)|| (birthMonth== 3 && birthDate<= 20)){
-  return "Pisces";
+  return zodiacArray["Pisces"];
 }else if((birthMonth == 3 && birthDate>=21)|| (birthMonth== 4 && birthDate<= 19)){
-  return "Aries";
+  return zodiacArray["Aries"];
 }else if((birthMonth == 4 && birthDate>=20)|| (birthMonth== 5 && birthDate<= 20)){
-  return "Taurus";
+  return zodiacArray["Taurus"];
 }else if((birthMonth == 5 && birthDate>=21)|| (birthMonth== 6 && birthDate<= 20)){
-  return "Gemini";
+  return zodiacArray["Gemini"];
 }else if((birthMonth == 6 && birthDate>=21)|| (birthMonth== 7 && birthDate<= 22)){
-  return "Cancer";
+  return zodiacArray["Cancer"];
 }else if((birthMonth == 7 && birthDate>=23)|| (birthMonth== 8 && birthDate<= 22)){
-   return "Leo";
+   return zodiacArray["Leo"];
 }else if((birthMonth == 8 && birthDate>=23)|| (birthMonth== 9 && birthDate<= 22)){
-   return "Virgo";
+   return zodiacArray["Virgo"];
 }else if((birthMonth == 9 && birthDate>=23)|| (birthMonth== 10 && birthDate<= 22)){
-   return "Libra";
+   return zodiacArray["Libra"];
 }else if((birthMonth == 10 && birthDate>=23)|| (birthMonth== 11 && birthDate<= 21)){
-   return "Scorpio";
+   return zodiacArray["Scorpio"];
 }else if((birthMonth == 11 && birthDate>=22)|| (birthMonth== 12 && birthDate<= 21)){
-   return "Saggaritus";}
+   return zodiacArray["Saggaritus"];}
 }
 
