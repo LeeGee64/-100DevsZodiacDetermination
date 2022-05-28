@@ -104,3 +104,5 @@ if((birthMonth == 12 &&  birthDate >= 22) || (birthMonth == 1 && birthDate <= 19
    return zodiacArray["Saggaritus"];}
 }
 
+//Lee: this will export the above function to our node.js file
+export (getZodiacInfo);
