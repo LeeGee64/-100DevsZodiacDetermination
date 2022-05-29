@@ -1,15 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-    	<meta charset="utf-8">
-    	<meta name="description" content="Your description goes here">
-    	<meta name="keywords" content="one, two, three">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Are you compatible?</title>
+</head>
+<body>
+	<!-- <form>
+		<label for = "name">Name: <input type = "text"></label>
+		<label for = "date">DOB: <input type = "date"> </label>
 
-		<title>Blank Template</title>
+	</form> -->
+	<form id = "zodiac" action="#">
+		<fieldset>
+		  <legend>Zodiac Sign</legend>
+		  <div class="form-control">
+			<label for="month">Month you were born</label>
+			<input type= "number" 
+			value ="" 
+			id="month" 
+			min= "1" 
+			max= "12" 
+			placeholder= "Enter day your were born" required />
+		  </div>
+  
+		  <div class="form-control">
+			<label for="day">Day you were born</label>
+			<input
+			  type="number"
+			  value= ""
+			  id= "day"
+			  min = "1"
+			  max = "31"
+			  placeholder= "Enter day you were born"
+			  required
+			/>
+		  </div>
+		  <input type="submit" value="Send" class="submit-btn" />
+
+		</fieldset>
+  </form>
+</body>
 
 		<!-- external CSS link -->
-		<link rel="stylesheet" href="css/normalize.css">
-		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="style.css">
 	</head>
 	<body>
 
