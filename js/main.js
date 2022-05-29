@@ -8,72 +8,75 @@ function getZodiacInfo (birthDate, birthMonth) {
       name : "Capricorn", 
       dateRange :"Dec 22 - Jan 19", 
       image: "#" , 
-      description: ""
+      description: "Earth cardinal. Represented by the Sea-Goat. Capricorn is steady, goal-oriented, and ambitious. They are competent and always “has their eye on the prize.” Capricorns are patient, wise, and can be uptight in their desire to reach their goals."
   },
   "Aquarius": {
   name : "Aquarius", 
   dateRange : "Jan 20 - Feb 18",
    image: "#" ,
-  description: ""
+  description: "Air fixed. Represented by the Water Bearer. Aquarius is unique, individualistic, active, and enigmatic. They are trailblazers and free thinkers; highly values freedom and intellect. Has an air of rebellion to them."
   },
   "Pisces": {
       name : "Pisces",
       dateRange : "Feb 19 - Mar 20",
-      image: "#", description: "",
+      image: "#", 
+      description: "Water mutable. Represented by the Fish. Pisces are dreamy, emotional, and imaginative. They live in their heads as daydreaming and idealistic folks. Often artistic and romantic. Pisces are intuitive and deep, philosophical thinkers."
   },
   "Aries": {
   name : "Aries",
    dateRange : "Mar 21 - Apr 19", 
    image: "#", 
-   description: ""
+   description: "Fire cardinal. Represented by the Ram. Aries is reactive, energetic, and enthusiastic. Bold and passionate, They do not let their voices get drowned. Their heart is fiery and they are often brilliant leaders, leading with determination."
   },
   "Taurus": {
       name : "Taurus",
    dateRange : "Apr 20 - May 20", 
    image: "#", 
-   description: ""
+   description: "Earth fixed. Represented by the Bull. Down-to-earth, strong-willed, gentle. Taurus can be very stubborn when they want to be. Likes comfort and material stability. Does not like to be rushed into making choices or actions.
+"
   },
   "Gemini": {
       name : "Gemini",
        dateRange : "May 21 - Jun 20",
         image: "#", 
-        description: ""
+        description: "Air mutable. Represented by the Twins. Gemini is imaginative, lighthearted, and often silly. Their attitudes and ideas can shift quickly, making them appear indecisive or flighty. Curious folks who has a need to satisfy the mind."
       },
   "Cancer": {
       name : "Cancer",
        dateRange : "Jun 21 - Jul 22", 
        image: "#",
-      description: ""
+      description: "Water cardinal. Represented by the Crab. Sensitive, emotional, and nurturing. Cancer is a protective sign. Known to be loyal to who they love, Cancers are intuitive and personal. They can be defensive and moody at times."
   },
   "Leo": {
       name : "Leo",
        dateRange : "Jul 23 - Aug 22", 
        image: "#", 
-       description: ""
+       description: "Fire fixed. Represented by the Lion. Leo is vibrant, bold, and entertaining. They are often very dramatic, expressive, and loves attention. Commonly stereotyped to be attention-seeking and egoistical, but Leo has a great big heart."
       },
   "Virgo": {
       name : "Virgo",
        dateRange : "Aug 23 - Sep 22",
         image: "#", 
-        description: ""
+        description: "Earth mutable. Represented by the Maiden. Virgo is reserved, observant, and detail-oriented. Organized and can be seen as nit-picky or fussy by others. They are patiently adaptive and is levelheaded. Sensitive to external environment."
       },
   "Libra": {
       name : "Libra",
        dateRange : "Sep 23 - Oct 22",
        vimage: "#", 
-       description: ""
+       description: "Air cardinal. Represented by the Scale. Libra appears peaceful, gentle, and fair. They are artful folks who are attracted to aesthetics and beauty. Libra is sociable and active. Diplomatic and does not like conflict, but they are often great leaders."
       },
   "Scorpio": 
   {name : "Scorpio", 
   dateRange : "Oct 23 - Nov 21",
    image: "#", 
-   description: ""
+   description: "Water fixed. Represented by the Scorpion. Scorpios are intense, dedicated, and fixative. Closed off and watchful at first, but in comfort they are loving, committed, and selfless. Scorpio can be vengeful and grudge-holding if betrayed."
   },
   "Sagittarius": 
   {name : "Sagittarius", 
   dateRange : "Nov 22 - Dec 21", 
   image: "#",
-   description: ""
+   description: "Fire mutable. Represented by the Archer. Sagittarius is free-spirited, adventurous, and honest. They are known for their biting honesty and their bluntness. Wise and open-minded, Sagittarius are young at heart and born travelers.
+"
   }   
 ];
 
