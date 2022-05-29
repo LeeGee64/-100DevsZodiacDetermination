@@ -18,7 +18,7 @@ Earth fixed. Represented by the Bull. Down-to-earth, strong-willed, gentle. Taur
 # GEMINI
 ***May 21 - Jun 20***
 
- Air mutable. Represented by the Twins. Gemini is imaginative, lighthearted, and often silly. Their attitudes and ideas can shift quickly, making them appear indecisive or flighty. Curious folks who has a need to satisfy the mind.
+Air mutable. Represented by the Twins. Gemini is imaginative, lighthearted, and often silly. Their attitudes and ideas can shift quickly, making them appear indecisive or flighty. Curious folks who has a need to satisfy the mind.
 
 # CANCER
 ***Jun 21 - July 20***
@@ -28,12 +28,12 @@ Water cardinal. Represented by the Crab. Sensitive, emotional, and nurturing. Ca
 # LEO
 ***Jul 23 - Aug 22***
 
- Fire fixed. Represented by the Lion. Leo is vibrant, bold, and entertaining. They are often very dramatic, expressive, and loves attention. Commonly stereotyped to be attention-seeking and egoistical, but Leo has a great big heart.
+Fire fixed. Represented by the Lion. Leo is vibrant, bold, and entertaining. They are often very dramatic, expressive, and loves attention. Commonly stereotyped to be attention-seeking and egoistical, but Leo has a great big heart.
 
 # VIRGO
 ***Aug 23 - Sept 22***
 
- Earth mutable. Represented by the Maiden. Virgo is reserved, observant, and detail-oriented. Organized and can be seen as nit-picky or fussy by others. They are patiently adaptive and is levelheaded. Sensitive to external environment.
+Earth mutable. Represented by the Maiden. Virgo is reserved, observant, and detail-oriented. Organized and can be seen as nit-picky or fussy by others. They are patiently adaptive and is levelheaded. Sensitive to external environment.
 
 # LIBRA
 ***Sep 23 - Oct 22***
@@ -58,7 +58,7 @@ Earth cardinal. Represented by the Sea-Goat. Capricorn is steady, goal-oriented,
 # AQUARIUS 
 ***Jan 20 - Feb 18***
 
- Air fixed. Represented by the Water Bearer. Aquarius is unique, individualistic, active, and enigmatic. They are trailblazers and free thinkers; highly values freedom and intellect. Has an air of rebellion to them.
+Air fixed. Represented by the Water Bearer. Aquarius is unique, individualistic, active, and enigmatic. They are trailblazers and free thinkers; highly values freedom and intellect. Has an air of rebellion to them.
 
 # PISCES
 ***Feb 19 - Mar 20***
