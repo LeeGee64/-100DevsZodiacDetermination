@@ -5,6 +5,8 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Are you compatible?</title>
+	<link rel="stylesheet" href="css/reset.css"> <!-- External stylesheet should be positioned within the head tag-->
+	<link rel="stylesheet" href="css/style.css"> <!--Added css folder before css href was called as css links is stored within a css folder-->
 </head>
 <body>
 	<!-- <form>
@@ -37,17 +39,24 @@
 			  required
 			/>
 		  </div>
-		  <input type="submit" value="Send" class="submit-btn" />
-
+		 <!--- <input type="submit" value="Send" class="submit-btn" />-->
+             <button class="submit-btn">Send</button>
+			 <h1 class="name"> </h1>
+			 <img src="" width="100" height="100" alt="image">
+			 <p class="text">  </p>
+			 
 		</fieldset>
   </form>
-</body>
+ 
+<!--</body>--> <!--Multiple Body Tag-->
 
 		<!-- external CSS link -->
-		<link rel="stylesheet" href="reset.css">
+		<!--Error: Multiple body tags-->
+		<!--Css external link is supposed to be within the head tag-->
+		<!--<link rel="stylesheet" href="reset.css">
 		<link rel="stylesheet" href="style.css">
 	</head>
-	<body>
+	<body>-->
 
 		<script type="text/javascript" src="js/main.js"></script>
 	</body>

@@ -3,45 +3,114 @@
 const http = require('http');
 const fs = require('fs')
 const url = require('url');
-//const querystring = require('querystring');
-//const figlet = require('figlet')
+const querystring = require('querystring');
+const figlet = require('figlet')
 // const hostname = '127.0.0.1'
 // const port = 3000
 
 //brings in getZodiacInfo function from main.js
-import (getZodiacInfo); './main.js';
+//import (getZodiacInfo); './main.js';
 
 const server = http.createServer((req, res) => {
   const page = url.parse(req.url).pathname;
   const params = querystring.parse(url.parse(req.url).query);
   console.log(page);
+
   if (page == '/') {
     fs.readFile('index.html', function(err, data) {
       res.writeHead(200, {'Content-Type': 'text/html'});
       res.write(data);
       res.end();
     });
-  }
-  else if (page == '/api') {
-    //Lee: Need to add return of zodiac object
-    //Lee: 
-//     if('student' in params){
-//       if(params['student']== 'leon'){
-//         res.writeHead(200, {'Content-Type': 'application/json'});
-//         const objToJson = {
-//           name: "leon",
-//           status: "Boss Man",
-//           currentOccupation: "Baller"
-//         }
-//         res.end(JSON.stringify(objToJson));
-//       }
-//     }
-  }
-  else if (page == '/css/style.css'){
+  }else if (page == '/images/aquarius.png'){             
+    fs.readFile('./images/aquarius.png', function(err, data) {
+        res.writeHead(200, {'Content-Type':'image/png'});
+        res.write(data);
+        res.end();
+    })
+}else if (page == '/images/aries.png'){             
+  fs.readFile('./images/aries.png', function(err, data) {
+      res.writeHead(200, {'Content-Type':'image/png'});
+      res.write(data);
+      res.end();
+  })
+}else if (page == '/images/cancer.png'){             
+  fs.readFile('./images/cancer.png', function(err, data) {
+      res.writeHead(200, {'Content-Type':'image/png'});
+      res.write(data);
+      res.end();
+  })
+}else if (page == '/images/capricorn.png'){             
+  fs.readFile('./images/capricorn.png', function(err, data) {
+      res.writeHead(200, {'Content-Type':'image/png'});
+      res.write(data);
+      res.end();
+  })
+}else if (page == '/images/gemini.png'){             
+  fs.readFile('./images/gemini.png', function(err, data) {
+      res.writeHead(200, {'Content-Type':'image/png'});
+      res.write(data);
+      res.end();
+  })
+}else if (page == '/images/leo.png'){             
+  fs.readFile('./images/leo.png', function(err, data) {
+      res.writeHead(200, {'Content-Type':'image/png'});
+      res.write(data);
+      res.end();
+  })
+}else if (page == '/images/libra.png'){             
+  fs.readFile('./images/libra.png', function(err, data) {
+      res.writeHead(200, {'Content-Type':'image/png'});
+      res.write(data);
+      res.end();
+  })
+}else if (page == '/images/pisces.png'){             
+  fs.readFile('./images/pisces.png', function(err, data) {
+      res.writeHead(200, {'Content-Type':'image/png'});
+      res.write(data);
+      res.end();
+  })
+}else if (page == '/images/saittarius.png'){             
+    fs.readFile('./images/saittarius.png', function(err, data) {
+        res.writeHead(200, {'Content-Type':'image/png'});
+        res.write(data);
+        res.end();
+    })
+  }else if (page == '/images/scorpio.png'){             
+    fs.readFile('./images/scorpio', function(err, data) {
+        res.writeHead(200, {'Content-Type':'image/png'});
+        res.write(data);
+        res.end();
+    })
+  }else if (page == '/images/taurus.png'){             
+    fs.readFile('./images/taurus.png', function(err, data) {
+        res.writeHead(200, {'Content-Type':'image/pngl'});
+        res.write(data);
+        res.end();
+    })
+  }else if (page == '/images/virgo.png'){             
+    fs.readFile('./images/virgo.png', function(err, data) {
+        res.writeHead(200, {'Content-Type':'image/png'});
+        res.write(data);
+        res.end();
+    })
+  }else if (page == '/images/Zodiac.png'){             
+    fs.readFile('./images/Zodiac.png', function(err, data) {
+        res.writeHead(200, {'Content-Type':'image/png'});
+        res.write(data);
+        res.end();
+    })
+  }else if (page == '/css/style.css'){
     fs.readFile('css/style.css', function(err, data) {
       res.write(data);
       res.end();
     });
+  }else if (page == '/css/reset.css'){
+    fs.readFile('css/style.css', function(err, data) {
+      res.write(data);
+      res.end();
+    });
+  
   }else if (page == '/js/main.js'){
     fs.readFile('js/main.js', function(err, data) {
       res.writeHead(200, {'Content-Type': 'text/javascript'});
