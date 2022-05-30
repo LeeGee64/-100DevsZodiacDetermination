@@ -9,7 +9,7 @@ const url = require('url');
 // const port = 3000
 
 //brings in getZodiacInfo function from main.js
-import (getZodiacInfo) from './main.js';
+import (getZodiacInfo); './main.js';
 
 const server = http.createServer((req, res) => {
   const page = url.parse(req.url).pathname;
