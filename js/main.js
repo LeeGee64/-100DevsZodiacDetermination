@@ -148,7 +148,7 @@ if(birthMonth == 12 &&  birthDate >= 22 || birthMonth == 1 && birthDate <= 19){
   document.querySelector('img').src = zodiacArray[11].image // append image in zodiac array to DOM
   document.querySelector('.text').innerText= zodiacArray[11].description} //append description in zodiac array to DOM
 }
-}
+
 
 
 //Crystal: I'm not sure what this problem is ts(1128) (Declaration or statement expected.) Please advise! What goes right here please change if I'm wrong I put exportType(Please advise!!!)
