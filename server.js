@@ -8,8 +8,6 @@ const figlet = require('figlet')
 // const hostname = '127.0.0.1'
 // const port = 3000
 
-//brings in getZodiacInfo function from main.js
-//import (getZodiacInfo); './main.js';
 
 const server = http.createServer((req, res) => {
   const page = url.parse(req.url).pathname;
@@ -70,21 +68,21 @@ const server = http.createServer((req, res) => {
       res.write(data);
       res.end();
   })
-}else if (page == '/images/saittarius.png'){             
-    fs.readFile('./images/saittarius.png', function(err, data) {
+}else if (page == '/images/sagittarius.png'){             
+    fs.readFile('./images/sagittarius.png', function(err, data) {
         res.writeHead(200, {'Content-Type':'image/png'});
         res.write(data);
         res.end();
     })
   }else if (page == '/images/scorpio.png'){             
-    fs.readFile('./images/scorpio', function(err, data) {
+    fs.readFile('./images/scorpio.png', function(err, data) {
         res.writeHead(200, {'Content-Type':'image/png'});
         res.write(data);
         res.end();
     })
   }else if (page == '/images/taurus.png'){             
     fs.readFile('./images/taurus.png', function(err, data) {
-        res.writeHead(200, {'Content-Type':'image/pngl'});
+        res.writeHead(200, {'Content-Type':'image/png'});
         res.write(data);
         res.end();
     })
