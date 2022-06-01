@@ -21,7 +21,7 @@
 /* BASE STYLES
 /*******************************************/
 
-body {
+body, h2, p {
 
      display: flex;
      align-items: center;
