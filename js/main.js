@@ -79,77 +79,42 @@ const zodiacArray = [
 ]
 
 document.querySelector('.submit-btn').addEventListener('click', getZodiac)
-function getZodiac() {
-
-  let birthMonth = document.getElementById('month').value;
-  let birthDate= document.getElementById('day').value;
-
+function getZodiac() { 
+  
+  let birthMonth = Number(document.getElementById('day').value.split('-')[1]); //pulls 'month' value from Date entry 
+  let birthDate= Number(document.getElementById('day').value.split('-')[2]); // pulls 'day' value from Date entry
+  let userZodiac = {}; 
 
 if(birthMonth == 12 &&  birthDate >= 22 || birthMonth == 1 && birthDate <= 19){
-    document.querySelector('.name').innerText=zodiacArray[0].name //append name in zodiac array to DOM
-    document.querySelector('img').src = zodiacArray[0].image //append image in zodiac array to DOM
-    document.querySelector('.text').innerText= zodiacArray[0].description //append description in zodiac array to DOM
-
+    userZodiac = zodiacArray.find(x => x.name == "Capricorn")
 }else if((birthMonth == 1 && birthDate>=20)||(birthMonth == 2 && birthDate<=18)){
-  document.querySelector('.name').innerText=zodiacArray[1].name //append name in zodiac array to DOM
-  document.querySelector('img').src = zodiacArray[1].image // append image in zodiac array to DOM
-  document.querySelector('.text').innerText=zodiacArray[1].description //append description in zodiac array to DOM
-
+  userZodiac = zodiacArray.find(x => x.name == "Aquarius")
 }else if((birthMonth == 2 && birthDate>=19)|| (birthMonth== 3 && birthDate<= 20)){
-  document.querySelector('.name').innerText=zodiacArray[2].name //append name in zodiac array to DOM
-  document.querySelector('img').src = zodiacArray[2].image // append image in zodiac array to DOM
-  document.querySelector('.text').innerText= zodiacArray[2].description //append description in zodiac array to DOM
-
+  userZodiac = zodiacArray.find(x => x.name == "Pisces")
 }else if((birthMonth == 3 && birthDate>=21)|| (birthMonth== 4 && birthDate<= 19)){
-  document.querySelector('.name').innerText=zodiacArray[3].name //append name in zodiac array to DOM
-  document.querySelector('img').src = zodiacArray[3].image // append image in zodiac array to DOM
-  document.querySelector('.text').innerText= zodiacArray[3].description //append description in zodiac array to DOM
-
-}else if((birthMonth == 4 && birthDate>=20)|| (birthMonth== 5 && birthDate<= 20)){
-  document.querySelector('.name').innerText=zodiacArray[4].name //append name in zodiac array to DOM
-  document.querySelector('img').src = zodiacArray[4].image // append image in zodiac array to DOM
-  document.querySelector('.text').innerText= zodiacArray[4].description //append description in zodiac array to DOM
-
+  userZodiac = zodiacArray.find(x => x.name == "Aries")
+}else if((birthMonth == 4 && birthDate>=20)|| (birthMonth== 5 && birthDate<= 20)){ 
+  userZodiac = zodiacArray.find(x => x.name == "Taurus")
 }else if((birthMonth == 5 && birthDate>=21)|| (birthMonth== 6 && birthDate<= 20)){
-
-  document.querySelector('.name').innerText=zodiacArray[5].name //append name in zodiac array to DOM
-  document.querySelector('img').src = zodiacArray[5].image // append image in zodiac array to DOM
-  document.querySelector('.text').innerText= zodiacArray[5].description //append description in zodiac array to DOM
-
+  userZodiac = zodiacArray.find(x => x.name == "Gemini")
 }else if((birthMonth == 6 && birthDate>=21)|| (birthMonth== 7 && birthDate<= 22)){
-  document.querySelector('.name').innerText=zodiacArray[6].name //append name in zodiac array to DOM
-  document.querySelector('img').src = zodiacArray[6].image // append image in zodiac array to DOM
-  document.querySelector('.text').innerText= zodiacArray[6].description //append description in zodiac array to DOM
-
+   userZodiac = zodiacArray.find(x => x.name == "Cancer")
 }else if((birthMonth == 7 && birthDate>=23)|| (birthMonth== 8 && birthDate<= 22)){
-  document.querySelector('.name').innerText=zodiacArray[7].name //append name in zodiac array to DOM
-  document.querySelector('img').src = zodiacArray[7].image // append image in zodiac array to DOM
-  document.querySelector('.text').innerText= zodiacArray[7].description //append description in zodiac array to DOM
-
+  userZodiac = zodiacArray.find(x => x.name == "Leo")
 }else if((birthMonth == 8 && birthDate>=23)|| (birthMonth== 9 && birthDate<= 22)){
-
-  document.querySelector('.name').innerText=zodiacArray[8].name //append name in zodiac array to DOM
-  document.querySelector('img').src = zodiacArray[8].image // append image in zodiac array to DOM
-  document.querySelector('.text').innerText= zodiacArray[8].description //append description in zodiac array to DOM
-
-
+  userZodiac = zodiacArray.find(x => x.name == "Virgo")
 }else if((birthMonth == 9 && birthDate>=23)|| (birthMonth== 10 && birthDate<= 22)){
-  document.querySelector('.name').innerText=zodiacArray[9].name //append name in zodiac array to DOM
-  document.querySelector('img').src = zodiacArray[9].image // append image in zodiac array to DOM
-  document.querySelector('.text').innerText= zodiacArray[9].description //append description in zodiac array to DOM
-
+  userZodiac = zodiacArray.find(x => x.name == "Libra")
 }else if((birthMonth == 10 && birthDate>=23)|| (birthMonth== 11 && birthDate<= 21)){
-  document.querySelector('.name').innerText=zodiacArray[10].name //append name in zodiac array to DOM
-  document.querySelector('img').src = zodiacArray[10].image // append image in zodiac array to DOM
-  document.querySelector('.text').innerText= zodiacArray[10].description //append description in zodiac array to DOM
-
+  userZodiac = zodiacArray.find(x => x.name == "Scorpio")
 }else if((birthMonth == 11 && birthDate>=22)|| (birthMonth== 12 && birthDate<= 21)){
-  document.querySelector('.name').innerText=zodiacArray[11].name //append name in zodiac array to DOM
-  document.querySelector('img').src = zodiacArray[11].image // append image in zodiac array to DOM
-  document.querySelector('.text').innerText= zodiacArray[11].description} //append description in zodiac array to DOM
+  userZodiac = zodiacArray.find(x => x.name == "Sagittarius")
+} 
+
+//need to make sure that these append to the right document        
+document.querySelector('#zodiacName').innerText= userZodiac.name //append name in zodiac array to DOM
+document.querySelector('#zodiacImage').src = userZodiac.image // append image in zodiac array to DOM
+document.querySelector('#zodiacDescription').innerText= userZodiac.description //append description in zodiac array to DOM
 }
 
 
-
-//Crystal: I'm not sure what this problem is ts(1128) (Declaration or statement expected.) Please advise! What goes right here please change if I'm wrong I put exportType(Please advise!!!)
-//@Crystal: You can delete the export function. It was a mistake from when I first posted the js file
