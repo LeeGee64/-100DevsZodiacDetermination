@@ -29,7 +29,8 @@ body {
      height: 100vh;
      font-family: Arial, Helvetica, sans-serif;
      color: black;
-     background-image: url(/images/Zodiac.png) ;
+    background-image: url(../images/Zodiac2.jpg); /* added a ../path to background as images is the parent of current directory Zodiac.png */
+    /* Edit by Crystal- I was playing around with the background images I added some to the images folder. You can change it back if you want to or choose a different image */
    }
  
   input,
@@ -66,7 +67,7 @@ body {
 /******************************************
 /* LAYOUT
 /*******************************************/
-header {
+/*header {
 
 }
 

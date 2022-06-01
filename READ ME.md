@@ -11,6 +11,8 @@
 # ZODIAC  SIGN Project
 This project is a user friendly project that provides the accurate constellation name of the user. Basically the user inputs his/her date of birth in the input field provided and the zodiac name and description is returned to the user.
 
+# How It's Made:
+
 # The Process
 
 
@@ -18,7 +20,7 @@ This project is a user friendly project that provides the accurate constellation
 # Optimization
 
 
-# Lessons Learnt
+# Lessons Learned:
 
 
 # Resources Used 
