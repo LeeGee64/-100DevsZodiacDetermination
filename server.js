@@ -20,7 +20,8 @@ const server = http.createServer((req, res) => {
       res.write(data);
       res.end();
     });
-  }else if (page == '/images/aquarius.png'){             
+   } 
+   else if (page == '/images/aquarius.png'){             
     fs.readFile('./images/aquarius.png', function(err, data) {
         res.writeHead(200, {'Content-Type':'image/png'});
         res.write(data);
