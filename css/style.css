@@ -1,16 +1,16 @@
 /* Box Model Hack */
 * {
-     box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* Clear fix hack */
 .clearfix:after {
-     content: ".";
-     display: block;
-     clear: both;
-     visibility: hidden;
-     line-height: 0;
-     height: 0;
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
 }
 
 .clear {
@@ -22,102 +22,113 @@
 /*******************************************/
 
 body {
-
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     justify-content: center;
-     height: 100vh;
-     font-family: Arial, Helvetica, sans-serif;
-     color: black;
-    background-image: url(/images/Zodiac.png); /* added a ../path to background as images is the parent of current directory Zodiac.png */
-    /* Edit by Crystal- I was playing around with the background images I added some to the images folder. You can change it back if you want to or choose a different image */
-   }
- 
-
-  input,
-     textarea {
-     width: 100%;
-     padding: 5px;
-     outline: none;
-   }
- 
-   label {
-     line-height: 1.9rem;
-   }
- 
-   input[type="submit"] {
-    transform: translate(2.2%);
-    padding: 3px;
-    margin-top: 0.6rem;
-    font-family: cursive;
-    font-weight: bold;
-   }
- 
-  
-  #zodiac, #resultScreen {
-    background: white;
-    opacity: 0.8;
-    display: flex;
-    flex-direction: column;
-    padding: 2rem;
-    justify-content: center;
-  }
-
-  #resultScreen{
-    align-items: center;
-    max-width: 75%;
-  }
-
-  .hide {
-    visibility: collapse;
-  } 
-
-  #resultsMessage{
-    width: 70%;
-    font-size:8rem;
-    text-align: center;
-  }
-  
-  #zodiacImage{
-    max-width: 60%;
-    align-self: center;
-  }
-
-  #zodiacName{
-    font-weight: 700;
-    letter-spacing: 0.1rem;
-    margin: 1rem;
-    width:40%;
-    font-size: 6rem;
-    text-align: center;
-  }
-
-  #zodiacDescription{
-    font-style: italic;
-    font-size: 1rem;
-    margin: 0.5 rem;
-    width: 70%; 
-    text-align: center;
-  }
-
-  #returnLink{
-    width:15%;
-  }
-
-
-
-/******************************************
-/* LAYOUT
-/*******************************************/
-/*header {
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  background: black;
+  background-image: url(/images/Zodiac3.jpg); /* added a ../path to background as images is the parent of current directory Zodiac.png */
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
-footer {
-
+input,
+textarea {
+  width: 100%;
+  padding: 5px;
+  outline: none;
 }
+
+label {
+  line-height: 1.9rem;
+}
+
+input[type="submit"] {
+  transform: translate(2.2%);
+  padding: 3px;
+  margin-top: 0.6rem;
+  font-family: cursive;
+  font-weight: bold;
+}
+
+#zodiac, #resultScreen {
+  background: white;
+  opacity: 0.8;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  justify-content: center;
+}
+
+#resultScreen{
+  align-items: center;
+  max-width: 75%;
+}
+
+.hide {
+  visibility: collapse;
+} 
+
+#resultsMessage{
+  width: 70%;
+  font-size:8rem;
+  text-align: center;
+}
+
+#zodiacImage{
+  max-width: 60%;
+  align-self: center;
+}
+
+#zodiacName{
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  margin: 1rem;
+  width:40%;
+  font-size: 6rem;
+  text-align: center;
+}
+
+#zodiacDescription{
+  font-style: italic;
+  font-size: 1rem;
+  margin: 0.5rem;
+  width: 70%; 
+  text-align: center;
+}
+
+#returnLink{
+  width: 15%;
+}
+
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+@media all and (max-width: 992px) {
+  #zodiac, #resultScreen {
+    padding: 1rem;
+  }
+
+  #resultScreen{
+    max-width: 90%;
+  }
+
+  #zodiacName{
+    width: 100%;
+    margin: 0.5rem;
+    font-size: 3rem;
+  }
+
+  #zodiacDescription{
+    width: 100%;
+  }
+
+  #returnLink{
+    width: 30%;
+  }
+}
