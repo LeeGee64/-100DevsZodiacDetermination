@@ -20,7 +20,7 @@ This project is a user friendly project that provides the accurate constellation
 This project was created using the following technologies:- HTML, JAVASCRIPT, CSS, NODE.js, Json
 
 # The Process
-Firstly, a form element with date input was created for users to enter their name and their date and year of birth using the `dd/mm/yyyy` format. Then a array containing the data for specific dates and their corresponding zodiac name and decription.  When a user enters their birthdate, their zodiac constellation name, associated images and description is returned. Conditionals was used to call the data in the zodiac array objects.
+Firstly, a form element with date input was created for users to enter their name and their birthday using the `dd/mm/yyyy` format. Then we built an array of objects containing the data for each zodiac sign including: names, decriptions, and images. When a user enters their birthdate, their zodiac constellation name, associated images and description is returned by filtering through the zodiac array via a conditional based on the entered date and month.
 
 
 # Optimization
