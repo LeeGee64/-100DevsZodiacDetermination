@@ -93,8 +93,14 @@ const server = http.createServer((req, res) => {
         res.write(data);
         res.end();
     })
-  }else if (page == '/images/Zodiac.png'){             
-    fs.readFile('./images/Zodiac.png', function(err, data) {
+  }else if (page == '/images/Zodiac3.jpg'){             
+    fs.readFile('./images/Zodiac3.jpg', function(err, data) {
+        res.writeHead(200, {'Content-Type':'image/png'});
+        res.write(data);
+        res.end();
+    })
+  }else if (page == '/images/Zodiac1.jpg'){             
+    fs.readFile('./images/Zodiac1.jpg', function(err, data) {
         res.writeHead(200, {'Content-Type':'image/png'});
         res.write(data);
         res.end();

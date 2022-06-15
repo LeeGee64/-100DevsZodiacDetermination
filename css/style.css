@@ -61,11 +61,13 @@ input[type="submit"] {
   flex-direction: column;
   padding: 2rem;
   justify-content: center;
+  border-radius: 5px;
 }
 
 #resultScreen{
   align-items: center;
   max-width: 75%;
+  text-align: center;
 }
 
 .hide {
@@ -76,6 +78,7 @@ input[type="submit"] {
   width: 70%;
   font-size:8rem;
   text-align: center;
+  margin: auto;
 }
 
 #zodiacImage{
@@ -110,12 +113,21 @@ input[type="submit"] {
 /*******************************************/
 
 @media all and (max-width: 992px) {
+  body {
+    background-image: url(/images/Zodiac1.jpg);
+    background-size: 100% 100%;
+  }
+  
   #zodiac, #resultScreen {
     padding: 1rem;
   }
 
   #resultScreen{
     max-width: 90%;
+  }
+
+  #resultsMessage{
+    width: 100%;
   }
 
   #zodiacName{
