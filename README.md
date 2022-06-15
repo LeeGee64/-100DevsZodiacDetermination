@@ -13,6 +13,7 @@
 
 # ZODIAC  SIGN Project
 This project is a user friendly project that provides the accurate constellation name of the user. Basically the user inputs his/her date of birth in the input field provided and the zodiac name and description is returned to the user.
+[Tap to access the project here](https://my-zodiac-determination.herokuapp.com)
 
 <img align="center" width="300" src="images/input.jpeg" alt="input field" />
 <img align="center" width="300" src="images/result.jpeg" alt="travia quiz" />
