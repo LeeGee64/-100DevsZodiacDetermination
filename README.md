@@ -9,7 +9,9 @@
   > 
   > Nick Rivera | *GitHub:* leerivera | *Twitter:* @Leer | *LinkedIn:* linkedin.com/in/nicholas-riveraleer/
   > 
-  >  Mary Shodiya | *GitHub:* MaryShodiya| *Twitter:* @addvokeight| *LinkedIn:* linkedin.com/in/mary-shodiya/
+  > Mary Shodiya | *GitHub:* MaryShodiya| *Twitter:* @addvokeight| *LinkedIn:* linkedin.com/in/mary-shodiya/
+  >
+  > James Karr | *GitHub:* jameskarr | *Twitter:* @jamesKarrDev | *LinkedIn:* linkedin.com/in/jameskarrdev/
 ---
 
 
