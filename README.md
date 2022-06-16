@@ -6,7 +6,9 @@
   > **Contributors**
   > 
   > Lee Gill | *GitHub:* LeeGee64 | *Twitter:* @LeeGee64 | *LinkedIn:* linkedin.com/in/leland-gill 
+  > 
   > Nick Rivera | *GithHub:* leerivera | *Twitter:* @Leer | *LinkedIn:*linkedin.com/in/nicholas-riveraleer/
+  > 
   >  Mary Shodiya | *GithHub:* MaryShodiya| *Twitter:* @addvokeight| *LinkedIn:*linkedin.com/in/mary-shodiya/
 ---
 
