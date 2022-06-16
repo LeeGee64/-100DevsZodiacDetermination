@@ -7,9 +7,9 @@
   > 
   > Lee Gill | *GitHub:* LeeGee64 | *Twitter:* @LeeGee64 | *LinkedIn:* linkedin.com/in/leland-gill 
   > 
-  > Nick Rivera | *GitHub:* leerivera | *Twitter:* @Leer | *LinkedIn:*linkedin.com/in/nicholas-riveraleer/
+  > Nick Rivera | *GitHub:* leerivera | *Twitter:* @Leer | *LinkedIn:* linkedin.com/in/nicholas-riveraleer/
   > 
-  >  Mary Shodiya | *GitHub:* MaryShodiya| *Twitter:* @addvokeight| *LinkedIn:*linkedin.com/in/mary-shodiya/
+  >  Mary Shodiya | *GitHub:* MaryShodiya| *Twitter:* @addvokeight| *LinkedIn:* linkedin.com/in/mary-shodiya/
 ---
 
 
