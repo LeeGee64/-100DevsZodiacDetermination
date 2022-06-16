@@ -7,11 +7,13 @@
   > 
   > Lee Gill | *GitHub:* LeeGee64 | *Twitter:* @LeeGee64 | *LinkedIn:* linkedin.com/in/leland-gill 
   > Nick Rivera | *GithHub:* leerivera | *Twitter:* @Leer | *LinkedIn:*linkedin.com/in/nicholas-riveraleer/
+  >  Mary Shodiya | *GithHub:* MaryShodiya| *Twitter:* @addvokeight| *LinkedIn:*linkedin.com/in/mary-shodiya/
 ---
 
 
 # ZODIAC  SIGN Project
 This project is a user friendly project that provides the accurate constellation name of the user. Basically the user inputs his/her date of birth in the input field provided and the zodiac name and description is returned to the user.
+[Tap to access the project here](https://my-zodiac-determination.herokuapp.com)
 
 <img align="center" width="300" src="images/input.jpeg" alt="input field" />
 <img align="center" width="300" src="images/result.jpeg" alt="travia quiz" />

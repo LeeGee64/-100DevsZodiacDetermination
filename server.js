@@ -6,7 +6,7 @@ const url = require('url');
 const querystring = require('querystring');
 const figlet = require('figlet')
 // const hostname = '127.0.0.1'
-// const port = 3000
+ const PORT = 8000
 
 
 const server = http.createServer((req, res) => {
@@ -135,4 +135,4 @@ const server = http.createServer((req, res) => {
   }
 });
 
-server.listen(8000);
+server.listen(process.env.PORT || PORT);
