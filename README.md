@@ -10,6 +10,8 @@
   > Nick Rivera | *GitHub:* leerivera | *Twitter:* @Leer | *LinkedIn:* linkedin.com/in/nicholas-riveraleer/
   > 
   >  Mary Shodiya | *GitHub:* MaryShodiya| *Twitter:* @addvokeight| *LinkedIn:* linkedin.com/in/mary-shodiya/
+  >  
+  >  Crystal Fitzgerald | *GitHub:* crystalrena15 | *Twitter:* @cryscrys12 | *LinkedIn:* linkedin.com/in/crystal-fitzgerald-3ba20436
 ---
 
 
