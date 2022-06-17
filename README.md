@@ -12,6 +12,9 @@
   > Mary Shodiya | *GitHub:* MaryShodiya| *Twitter:* @addvokeight| *LinkedIn:* linkedin.com/in/mary-shodiya/
   >
   > James Karr | *GitHub:* jameskarr | *Twitter:* @jamesKarrDev | *LinkedIn:* linkedin.com/in/jameskarrdev/
+  > 
+  > Crystal Fitzgerald | *GitHub:* crystalrena15 | *Twitter:* @cryscrys12 | *LinkedIn:* linkedin.com/in/crystal-fitzgerald-3ba20436
+
 ---
 
 
